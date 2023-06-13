@@ -1,0 +1,219 @@
+body {
+  font-family: 'Montserrat';
+  text-align: center;
+}
+
+
+
+h1, h2, h3 {
+  font-family: 'Montserrat';
+  font-weight: 900;
+}
+
+
+p {
+  color: #8f8f8f;
+}
+
+
+li {
+  color: #8f8f8f;
+  line-height: 1.6;
+  margin-top: 5%;
+  text-align: left;
+}
+
+.dropcap:first-letter {
+  font-size: 3.75rem;
+  line-height: 0.65;
+}
+
+/*Headings*/
+
+.big-heading {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  font-size: 2.5rem;
+  line-height: 1.5;
+
+}
+
+
+/*containers*/
+
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/*sections*/
+.white-section {
+  background-color: #fff;
+}
+
+.colored-section {
+  background-color: #ACB1D6;
+  color: #fff;
+}
+
+/* navigation bar */
+
+.navbar {
+  padding-bottom: 4.5rem;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu';
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-family: "Montserrat-light";
+  font-size: 1.2rem;
+}
+
+/*title section*/
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+    text-align: left;
+}
+
+/* title image */
+
+.title-image {
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 25%;
+}
+
+.title-image-container {
+  position:relative;
+}
+
+/* introduction section */
+#introduction {
+  position: relative;
+  z-index: 1;
+}
+
+.introduction-box {
+  padding: 5%;
+}
+
+.introduction-title {
+  font-size: 1.5rem;
+}
+
+/* favorite section */
+#favorite {
+  position: relative;
+  z-index: 1;
+}
+
+.favorite-box {
+  padding: 0;
+}
+
+.favorite-title {
+  font-size: 1.5rem;
+  padding-bottom: 5%;
+}
+
+.link:link {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+.link:visited {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.link:hover {
+  color: #ACB1D6;
+  background-color: transparent;
+  text-decoration: underline;
+}
+.link:active {
+  color: #DBDFEA;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+
+.icon {
+  color: #DBDFEA;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #ACB1D6;
+}
+
+/*interest section*/
+
+#interest {
+  background-color: #DBDFEA;
+}
+
+.interest-text {
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+
+
+.interest-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+
+/*comment section*/
+
+.btn {
+  margin-top: 5%;
+}
+
+.comment-heading {
+  font-family: "Montserrat";
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.comment-text {
+  padding-bottom: 3%;
+}
+
+
+.form-group {
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+}
+
+
+/*Footer section*/
+
+.social-icon {
+  color:#ACB1D6;
+  margin:20px 10px;
+}
+
+.social-link:link {
+  color: black;
+  text-decoration: none;
+}
+
+.social-icon:hover {
+  color: #DBDFEA;
+  text-decoration: none;
+}
